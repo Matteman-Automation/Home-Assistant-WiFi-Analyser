@@ -1,0 +1,34 @@
+sensor:
+   - platform: mqtt
+    state_topic: "Watchdog/Netwerk/Naam"
+    name: "WD WiFi Naam"
+    
+  - platform: mqtt
+    state_topic: "Watchdog/Netwerk/availability"
+    name: "WD Online"
+    expire_after: 20
+    availability:
+      - topic: "Watchdog/Netwerk/availability"
+        payload_available: "online"
+        payload_not_available: "offline"
+    qos: 0
+    
+  - platform: mqtt
+    state_topic: "Watchdog/Netwerk/IP"
+    name: "WD IP"
+    
+  - platform: mqtt
+    state_topic: "Watchdog/Netwerk/Rssi"
+    name: "WD RSSI"
+    
+  - platform: mqtt
+    state_topic: "Watchdog/Netwerk/ping/Router1"
+    name: "WD Ping Router1"
+
+  - platform: mqtt
+    state_topic: "Watchdog/Netwerk/ping/Router2"
+    name: "WD Ping Router2"
+
+  - platform: mqtt
+    state_topic: "Watchdog/Netwerk/ping/Google"
+    name: "WD Ping Google"
