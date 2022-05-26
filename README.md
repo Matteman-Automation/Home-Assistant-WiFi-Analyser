@@ -20,4 +20,8 @@ and a 3d printed housing grom Thingiverse: https://www.thingiverse.com/thing:288
 
 ## Have fun with it and learn more about your WiFi @ Home
 
+Get everything explained and some analyses from my own network in my youtube video:
+https://youtu.be/RB_pG4Gs-H0
+Sorry, it is in Dutch but Youtube can deliver subtitles in every language.
+
 
